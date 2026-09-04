@@ -1,4 +1,4 @@
-def divide(a: float | int, b: float | int) -> float | None:
+def divide(a, b):
     if b == 0:
-        return None
+        return "Cannot divide by zero"
     return a / b
