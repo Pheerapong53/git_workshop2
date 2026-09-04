@@ -1,4 +1,6 @@
 from addition import add
+from subtract import subtract
+from minimum import minimum
 
 def main():
     print("***Calculator Program***")
@@ -29,7 +31,9 @@ while True:
     if choice == "1":
         result = add(num1, num2)
     elif choice == "2":
-        result = num1 - num2
+        result = subtract(num1, num2)
+    elif choice == "8":
+        result = minimum(num1, num2)
     else:
         print("อยู่ระหว่างการพัฒนา")
 
