@@ -1,3 +1,4 @@
+from average import calculate_average
 from addition import add
 
 def main():
@@ -30,6 +31,8 @@ while True:
         result = add(num1, num2)
     elif choice == "2":
         result = num1 - num2
+    elif choice == "5":
+        result = calculate_average(num1, num2)
     else:
         print("อยู่ระหว่างการพัฒนา")
 
