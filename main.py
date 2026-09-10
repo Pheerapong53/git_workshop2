@@ -2,6 +2,7 @@ from addition import add
 from subtract import subtract
 from minimum import minimum
 from multiplication import multiply
+from division import divide_advanced
 
 def main():
     print("***Calculator Program***")
@@ -35,6 +36,8 @@ while True:
         result = subtract(num1, num2)
     elif choice == "3":
         result = multiply(num1, num2)
+    elif choice == "4":
+        result = divide_advanced(num1,num2)
     elif choice == "8":
         result = minimum(num1, num2)
     else:
