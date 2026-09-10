@@ -1,6 +1,7 @@
 from addition import add
 from subtract import subtract
 from minimum import minimum
+from multiplication import multiply
 
 def main():
     print("***Calculator Program***")
@@ -32,6 +33,8 @@ while True:
         result = add(num1, num2)
     elif choice == "2":
         result = subtract(num1, num2)
+    elif choice == "3":
+        result = multiply(num1, num2)
     elif choice == "8":
         result = minimum(num1, num2)
     else:
